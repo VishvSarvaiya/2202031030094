@@ -1,0 +1,138 @@
+body {
+    background-image: url("https://images.hdqwalls.com/download/mercedes-amg-gt-r-2018-4k-zl-1366x768.jpg");
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222020;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .background-photo {
+     background-size: cover;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-widget {
+    background-color: #3835357c;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff7f7;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff7c;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #ffffff7c;
+  }
+  
+  .rating-stars input[type="radio"] {
+    display: none;
+  }
+  
+  .rating-stars label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('https://static4.depositphotos.com/1026550/376/i/450/depositphotos_3763236-stock-photo-gold-star.jpg');
+    background-size: cover;
+    cursor: pointer;
+
+
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .rating-stars label:hover,
+  .rating-stars label:hover ~ label,
+  .rating-stars input[type="radio"]:checked ~ label {
+    background-image: url('star-filled.png');
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

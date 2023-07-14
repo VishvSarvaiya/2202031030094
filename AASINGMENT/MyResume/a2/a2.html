@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="C:\Users\vishv\Desktop\silver oak\SEM 5\HTML\Assignment\a2\a2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="background-photo"></div>
+    <div class="feedback-widget">
+      <h1>Mercedes-Benz Feedback</h1>
+      <form id="feedback-form">
+        <div class="form-group">
+          <label for="name"><i class="fas fa-user"></i> Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message"><i class="fas fa-comments"></i> Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="rating"><i class="fas fa-star"></i> Rating:</label>
+          <div class="rating-stars">
+            <input type="radio" name="rating" id="star5" value="5" required>
+            <label for="star5"></label>
+            <input type="radio" name="rating" id="star4" value="4" required>
+            <label for="star4"></label>
+            <input type="radio" name="rating" id="star3" value="3" required>
+            <label for="star3"></label>
+            <input type="radio" name="rating" id="star2" value="2" required>
+            <label for="star2"></label>
+            <input type="radio" name="rating" id="star1" value="1" required>
+            <label for="star1"></label>
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <p>Thank you for your feedback!</p>
+    </div>
+  </div>
+  <script src="C:\Users\vishv\Desktop\silver oak\SEM 5\HTML\Assignment\a2\a2.js"></script>
+</body>
+</html>
